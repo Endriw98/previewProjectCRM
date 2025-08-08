@@ -1,0 +1,77 @@
+@keyframes animation01{
+    0%{width:0px;display:none}
+    50%{width:0px;display:none}
+    100%{width:250px;display:block}
+}
+@keyframes animation02{
+    0%{display:none}
+    50%{display:none}
+    75%{display:none}
+    100%{display:block}
+}
+@keyframes animation03{
+    0%{width:316px}
+    50%{width:316px}
+    100%{width:600px}
+}
+.pass{
+    width: 316px;
+    height:316px;
+    float:left;
+    margin-top:-16px;
+    margin-left:0px;
+    border-radius:20px;
+}
+#logo{
+    background-image: url('../img/logo.jpeg');
+    background-size:100% 100%;
+    margin-right:-40px;
+    box-shadow:20px 0px 30px rgba(0, 0, 0, 0.457);
+    
+}
+#recover{
+ animation: animation01 2s;
+}
+#recover-pass{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #C0CCE2;
+    padding-top: 15px;
+    margin-top:100px;
+    border-radius:20px;
+    box-shadow:0px 0px 50px black;
+    animation: animation03 2s;
+}
+#recover-pass input{
+    width: 250px;
+    height: 30px;
+    float: left;
+    background-color: #e7e8e9 ;
+    border: 2px solid rgb(10, 18, 71);
+    margin-left: 50px;
+    margin-top:10px;
+    border-radius:10px;
+    animation:animation01 2s;
+}
+#fpass-email{
+    margin-top:30px;
+}
+#recover-pass div h1{
+    margin-bottom:10px;
+    text-align:center;
+    font-weight: 900;
+    margin-left:60px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-transform:uppercase;
+    animation:animation02 1s;
+}
+#recover-pass button{
+    width:60px;
+    height:30px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top:10px;
+    animation:animation02 2s;
+}

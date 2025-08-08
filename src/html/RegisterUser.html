@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/RegisterUser.css'>
+    
+</head>
+<body>
+    <div id="r-user">
+        <div class="info" id="iconEnterprise"></div>
+        <div class="info"><h1>Registrar Usuário</h1>
+            <form id="new_users">
+                <input id="name" placeholder="Nome Completo"/>
+                <input id="email" type="email" placeholder="E-mail"/>
+                <input id="cpf" type="text" placeholder="CPF"/>
+                <h2>Data de Nascimento</h2>
+                <input id="date" type="date"/>
+                <input id="tel" type="text" placeholder="Telefone"/>
+                <input id="password" type="password" placeholder="Crie uma Senha"/>
+                <input type="password" placeholder="Confirme a Senha"/>
+                <button onclick="addUsers()">Submit</button>
+                <button><a href="../../index.html">Return</a></button>
+            </form>
+        </div>
+    </div>
+        
+    <script src='../js/process.js'></script>
+    <script src="../info/ExcelExport.jsx"></script>
+
+</body>
+</html>
+        
+
+
