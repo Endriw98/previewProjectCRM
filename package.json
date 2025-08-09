@@ -1,7 +1,7 @@
 {
   "homepage": "https://endriw98.github.io/previewProjectCRM",
   "name": "scream-start",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
